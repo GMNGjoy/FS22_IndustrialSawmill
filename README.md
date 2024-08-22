@@ -1,5 +1,5 @@
 # Industrial Sawmill
-Tired of driving across the entire map to sell your wood, or want a small and efficient sawmill directly on your farm? This mod is for you.
+This is an all-platforms version of the [BandsawMill](https://github.com/GMNGjoy/FS22_BandsawMill) that I have been working on for a few months, and the first mod with a custom model that I will be pushing up to ModHub. Thank you to my channel supporters for helping purchase this model, and allowing me to get a bandsaw mill out for all platforms!
 
 
 ## Description from the ModDesc
@@ -10,7 +10,7 @@ Tired of driving across the entire map to sell your wood, or want a small and ef
 > PLACEABLES:
 > - Industrial Sawmill (sellpoint) : Sellpoint for wood & woodchips. Gain a slight bonus for selling direct on your farm.
 > - Industrial Sawmill (production) : Producing planks and allowing direct selling or delivery of your wood. Also produce long planks and wood beams with the Platinum Edition enabled!
-
+>
 > STYLES:
 > - Industrial Sawmill : The default look for the sawmill with a overall "used" look. This is not a showroom sawmill, this is a working sawmill!
 > - Rusted Industrial Sawmill : They don't make them like they used to! This sawmill has stood the test of time, but is rusted to it's core after the paint flaked away. Still works, though!
