@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="sellingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs22/1.5.0.0/placeable.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <parentFile xmlFilename="xml/sawmillSellpoint.xml">
+        <attributes>
+            <!-- update storedata -->
+            <set path="placeable.storeData.name" value="$l10n_shopItem_oldIndustrialSawmill"/>
+            <set path="placeable.storeData.image" value="icons/store_oldIndustrialSawmill.dds" />
+
+            <!-- update to be an extension and silo with larger range -->
+            <set path="placeable.dynamicallyLoadedParts.dynamicallyLoadedPart(0)#filename" value="i3d/sawmillRusted.i3d" />
+
+         </attributes>
+    </parentFile>
+
+    <!-- ONLY FOR ICON GENERATION -->
+    <storeData>
+        <name>Old Sawmill Sellpoint</name>
+        <image>icons/store_oldIndustrialSawmill.dds</image>
+        <brand>NONE</brand>
+        <species>placeable</species>
+        <category>sellingPoints</category>
+    </storeData>
+</placeable>

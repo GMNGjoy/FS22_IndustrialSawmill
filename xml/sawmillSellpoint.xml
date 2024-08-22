@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="sellingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs22/placeable.xsd">
+    <storeData>
+        <name>$l10n_shopItem_industrialSawmill</name>
+        <functions>
+            <function>$l10n_function_sellingPoint</function>
+        </functions>
+        <image>icons/store_industrialSawmill.png</image>
+        <price>5000</price>
+        <lifetime>100</lifetime>
+        <dailyUpkeep>10</dailyUpkeep>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <rotation>110</rotation>
+        <brand>NONE</brand>
+        <species>placeable</species>
+        <category>sellingPoints</category>
+        <brush>
+            <type>placeable</type>
+            <category>production</category>
+            <tab>sellingPoints</tab>
+        </brush>
+        <storeIconRendering>
+            <settings cameraXRot="-11" cameraYRot="75" advancedBoundingBox="true"/>
+        </storeIconRendering>
+    </storeData>
+
+    <base>
+        <filename>i3d/sawmillSellpoint.i3d</filename>
+        <canBeRenamed>true</canBeRenamed>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" >
+        <testAreas />
+        <!-- <testAreas>
+            <testArea startNode="testArea1Start" endNode="testArea1End" />
+        </testAreas> -->
+        <sounds>
+            <place template="smallImp" />
+        </sounds>
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearArea1Start" widthNode="clearArea1Width" heightNode="clearArea1Height"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30" >
+        <levelAreas>
+            <levelArea startNode="levelArea1Start" widthNode="levelArea1Width" heightNode="levelArea1Height" groundType="dirt"/>
+        </levelAreas>
+    </leveling>
+
+    <indoorAreas />
+
+    <tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+    </tipOcclusionUpdateAreas>
+
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+        </updateAreas>
+    </ai>
+
+    <infoTrigger triggerNode="infoTrigger"/>
+
+    <dynamicallyLoadedParts>
+        <dynamicallyLoadedPart filename="i3d/sawmill.i3d" node="0" linkNode="sawmillLinkNode" />
+    </dynamicallyLoadedParts>
+
+    <hotspots>
+        <hotspot type="UNLOADING" linkNode="teleportNode" teleportNode="teleportNode" />
+    </hotspots>
+
+    <sellingStation appearsOnStats="true" litersForFullPriceDrop="1000000" fullPriceRecoverHours="24" supportsExtension="false">
+        <unloadTrigger exactFillRootNode="unloadBulkTrigger" aiNode="unloadWoodTriggerAINode" fillTypes="WOODCHIPS" priceScale="1.2" />
+        <unloadTrigger fillTypes="WOOD" priceScale="1.2">
+            <woodTrigger triggerNode="unloadWoodTrigger" activationTriggerNode="unloadWoodPlayerTrigger" />
+        </unloadTrigger>
+        <unloadTrigger fillTypes="WOOD" priceScale="1.75">
+            <woodTrigger triggerNode="unloadContainerTrigger" class="PalletUnloadTrigger" />
+        </unloadTrigger>
+    </sellingStation>
+
+    <triggerMarkers>
+        <triggerMarker node="unloadWoodPlayerTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="EXCLAMATION_MARK" adjustToGround="true" />
+        <triggerMarker node="unloadWoodTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="UNLOAD" adjustToGround="true" />
+
+        <triggerMarker node="warningStripe-loading-1" adjustToGround="true" />
+        <triggerMarker node="warningStripe-loading-2" adjustToGround="true" />
+        <triggerMarker node="warningStripe-loading-3" adjustToGround="true" />
+        <triggerMarker node="warningStripe-loading-4" adjustToGround="true" />
+    </triggerMarkers>
+
+    <i3dMappings>
+        <i3dMapping id="sawmillSellpoint" node="0>" />
+        <i3dMapping id="sawmillLinkNode" node="0>0|0" />
+        <i3dMapping id="clearArea1Start" node="0>1|0" />
+        <i3dMapping id="clearArea1Width" node="0>1|0|0" />
+        <i3dMapping id="clearArea1Height" node="0>1|0|1" />
+        <i3dMapping id="levelArea1Start" node="0>2|0" />
+        <i3dMapping id="levelArea1Width" node="0>2|0|0" />
+        <i3dMapping id="levelArea1Height" node="0>2|0|1" />
+        <i3dMapping id="testArea1Start" node="0>4|0" />
+        <i3dMapping id="testArea1End" node="0>4|0|0" />
+        <i3dMapping id="tipOcclusionUpdateArea1Start" node="0>5|0" />
+        <i3dMapping id="tipOcclusionUpdateArea1End" node="0>5|0|0" />
+
+        <i3dMapping id="infoTrigger" node="0>6|0" />
+        <i3dMapping id="teleportNode" node="0>6|1" />
+        <i3dMapping id="playerTrigger" node="0>6|2" />
+        <i3dMapping id="playerTriggerMarker" node="0>6|2|0" />
+
+        <i3dMapping id="unloadWoodTrigger" node="0>8|0" />
+        <i3dMapping id="unloadWoodPlayerTrigger" node="0>8|1" />
+        <i3dMapping id="unloadWoodPlayerTriggerMarker" node="0>8|2" />
+        <i3dMapping id="unloadWoodTriggerMarker" node="0>8|3" />
+        <i3dMapping id="unloadWoodTriggerAINode" node="0>8|4" />
+        <i3dMapping id="unloadContainerTrigger" node="0>8|5" />
+        <i3dMapping id="unloadBulkTrigger" node="0>8|7" />
+
+        <i3dMapping id="warningStripe-loading-1" node="0>8|6|0" />
+        <i3dMapping id="warningStripe-loading-2" node="0>8|6|1" />
+        <i3dMapping id="warningStripe-loading-3" node="0>8|6|2" />
+        <i3dMapping id="warningStripe-loading-4" node="0>8|6|3" />
+    </i3dMappings>
+</placeable>
