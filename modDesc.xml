@@ -25,7 +25,21 @@ Placement Note: If you wish to place a shed over the sawmill - place the shed fi
 For license & feedback, please visit: https://github.com/GMNGjoy/FS22_IndustrialSawmill]]>
 		</en>
         <de>
-<![CDATA[]]>
+<![CDATA[Bist du es müde, über die ganze Karte zu fahren, um dein Holz zu verkaufen? Oder willst du eine kleine und effiziente Sägemühle auf deinem Hof? Dann ist diese Mod für dich.
+
+Ein Bandsägewerk für's eigene Gehöft mit zwei Versionen, um entweder direkt als Verkaufspunkt oder als Sägewerk-Produktion zu dienen. Abhängig vom Stil deines Hofs kannst du die Sägemühle auch in einem rostigen Look platzieren.
+
+PLATZIERBARE OBJEKTE:
+- Industrielle Sägemühle (Verkaufspunkt) : Verkaufspunkt für Holz, Hackschnitzel und Holzprodukte. Du bekommst einen kleinen Bonus für den Direktverkauf auf deinem Hof.
+- Industrielle Sägemühle (Produktion) : Produziert Bretter und erlaubt den Direktverkauf oder die Weiterverteilung deines Holzes. Produziert auch lange Bretter und Holzbalken, wenn der Platinum DLC aktiviert ist!
+
+STILE:
+- Industrielle Sägemühle : Der normale Look für deine Sägemühle mit üblichen Gebrauchsspuren. Kein Ausstellungsstück, aber ein Arbeitstier!
+- Rostige Industrielle Sägemühle : Von dieser Qualität kann man heute nur noch träumen! Die Sägemühle hat sich bewährt, ist aber vom Rost befallen, nachdem die Farbe abgeblättert ist. Funktioniert aber immer noch!
+
+Hinweis zum Platzieren: Wenn du einen Schuppen über das Bandsägewerk stellen möchtest, dann platziere erst den Schuppen und nutze dann den freien Modus, um das Sägewerk in dem Schuppen zu platzieren.
+
+Besucht für Lizenz & Feedback bitte https://github.com/GMNGjoy/FS22_IndustrialSawmill]]>
         </de>
     </description>
     <iconFilename>icon_industrialSawmill.dds</iconFilename>
@@ -49,11 +63,11 @@ For license & feedback, please visit: https://github.com/GMNGjoy/FS22_Industrial
         </text>
         <text name="shopItem_industrialSawmill">
             <en>Industrial Sawmill</en>
-            <de></de>
+            <de>Industrielle Sägemühle</de>
         </text>
         <text name="shopItem_oldIndustrialSawmill">
             <en>Rusted Industrial Sawmill</en>
-            <de></de>
+            <de>Rostige Industrielle Sägemühle</de>
         </text>
     </l10n>
 </modDesc>
