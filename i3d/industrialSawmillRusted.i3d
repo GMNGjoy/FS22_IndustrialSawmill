@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="industrialSawmillRusted.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.6"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="textures/industrialSawmill_normal.png"/>
+    <File fileId="1" filename="textures/industrialSawmill_rusted_diffuse.png"/>
+    <File fileId="3" filename="textures/industrialSawmill_specular.png"/>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="device92 rusted" materialId="5" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="industrialSawmillRusted.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <Shape shapeId="1" name="industrialSawmillRusted" translation="0 0.000192599 0" rotation="-2.50448e-06 -0 0" scale="0.012 0.012 0.012" static="true" clipDistance="250" nodeId="8" materialIds="5" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>
