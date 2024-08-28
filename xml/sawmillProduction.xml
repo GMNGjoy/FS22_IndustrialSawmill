@@ -67,7 +67,7 @@
     </hotspots>
 
     <dynamicallyLoadedParts>
-        <dynamicallyLoadedPart filename="i3d/sawmill.i3d" node="0" linkNode="sawmillLinkNode" />
+        <dynamicallyLoadedPart filename="i3d/industrialSawmill.i3d" node="0" linkNode="sawmillLinkNode" />
     </dynamicallyLoadedParts>
 
     <productionPoint>
@@ -113,18 +113,18 @@
 
         <storage isExtension="false" fillLevelSyncThreshold="50" >
             <capacity fillType="WOOD"      capacity="250000" />
-            <capacity fillType="BOARDS"    capacity="18000" />
-            <capacity fillType="WOODCHIPS" capacity="10000"  />
+            <capacity fillType="BOARDS"    capacity="20000" />
+            <capacity fillType="WOODCHIPS" capacity="50000"  />
 
             <!-- Platinum DLC -->
-            <capacity fillType="WOODBEAM" capacity="10000" />
-            <capacity fillType="PLANKS" capacity="10000" />
+            <capacity fillType="WOODBEAM" capacity="20000" />
+            <capacity fillType="PLANKS" capacity="20000" />
 
             <!-- Show the WoodChips Filling up-->
             <fillPlane fillType="WOODCHIPS" node="woodChipsFillPlane" minY="-0.875" maxY="0" />
         </storage>
 
-        <sellingStation node="sellingStation" supportsExtension="false">
+        <sellingStation node="sellingStation" supportsExtension="false" hideFromPricesMenu="true">
             <unloadTrigger fillTypes="WOOD" >
                 <woodTrigger triggerNode="unloadWoodTrigger" activationTriggerNode="unloadWoodPlayerTrigger" />
             </unloadTrigger>
@@ -135,7 +135,7 @@
         </sellingStation>
 
         <loadingStation node="loadingStation" supportsExtension="false">
-            <loadTrigger fillTypes="WOODCHIPS WOOD" triggerNode="loadWoodchipTrigger" fillLitersPerSecond="1000" />
+            <loadTrigger fillTypes="WOODCHIPS WOOD" triggerNode="loadWoodchipTrigger" fillLitersPerSecond="1500" />
         </loadingStation>
 
         <palletSpawner node="productionSpawners">
@@ -214,9 +214,6 @@
         <i3dMapping id="levelArea1Start" node="0>2|0" />
         <i3dMapping id="levelArea1Width" node="0>2|0|0" />
         <i3dMapping id="levelArea1Height" node="0>2|0|1" />
-        <i3dMapping id="indoorArea1Start" node="0>3|0" />
-        <i3dMapping id="indoorArea1Width" node="0>3|0|0" />
-        <i3dMapping id="indoorArea1Height" node="0>3|0|1" />
         <i3dMapping id="testArea1Start" node="0>4|0" />
         <i3dMapping id="testArea1End" node="0>4|0|0" />
         <i3dMapping id="tipOcclusionUpdateArea1Start" node="0>5|0" />
