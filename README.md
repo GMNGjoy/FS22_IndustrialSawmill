@@ -15,8 +15,7 @@ This is an all-platforms version of the [BandsawMill](https://github.com/GMNGjoy
 > - Industrial Sawmill : The default look for the sawmill with an overall "used" look. Not a showroom sawmill, this is a working sawmill!
 > - Rusted Industrial Sawmill : They don't make them like they used to! This sawmill has stood the test of time, but is rusted to it's core after the paint flaked away. Still works, though!
 >
-> Note on placement:
-> If you wish to place a shed over the sawmill - place the shed first, then using free-placement mode, place the sawmill under the shed.
+> Placement Note: If you wish to place a shed over the sawmill - place the shed first, then using free-placement mode, place the sawmill under the shed.
 >
 > For license & feedback, please visit: https://github.com/GMNGjoy/FS22_IndustrialSawmill
 
@@ -25,3 +24,19 @@ This is an all-platforms version of the [BandsawMill](https://github.com/GMNGjoy
 1. Download this package from GitHub on the releases page, save the `FS22_IndustrialSawmill.zip` into your mod folder.
 2. Launch the game, and activate the mod.
 
+_Enjoy!_
+
+
+## Screenshots
+
+![Industrial Sawmill Sellpoint](/_screenshots/industrialSawmill_1.png)
+_Industrial Sawmill Sellpoint accepting Wood, Wood Chips, and other wood products_
+
+![Old Industrial Sawmill Sellpoint](/_screenshots/industrialSawmill_2_old.png)
+_Old & Rusty Industrial Sawmill Sellpoint accepting Wood, Wood Chips, and other wood products_
+
+![Industrial Sawmill Production](/_screenshots/industrialSawmill_3_production.png)
+_Industrial Sawmill Production in the open - making Planks, Long Planks and Wood Beams, with a byproduct of Wood Chips_
+
+![Old Industrial Sawmill Production](/_screenshots/industrialSawmill_4_old_production.png)
+_Old & Rusty Industrial Sawmill Production in the open - making Planks, Long Planks and Wood Beams, with a byproduct of Wood Chips_
