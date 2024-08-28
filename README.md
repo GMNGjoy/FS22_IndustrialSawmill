@@ -10,7 +10,7 @@ This is an all-platforms version of the [BandsawMill](https://github.com/GMNGjoy
 > PLACEABLES:
 > - Industrial Sawmill (sellpoint) : Sellpoint for wood, woodchips, and wood products. Gain a slight bonus for selling direct on your farm.
 > - Industrial Sawmill (production) : Producing planks and allowing direct selling or delivery of your wood. Also produce long planks and wood beams with the Platinum Edition enabled!
-
+>
 > STYLES:
 > - Industrial Sawmill : The default look for the sawmill with an overall "used" look. Not a showroom sawmill, this is a working sawmill!
 > - Rusted Industrial Sawmill : They don't make them like they used to! This sawmill has stood the test of time, but is rusted to it's core after the paint flaked away. Still works, though!
