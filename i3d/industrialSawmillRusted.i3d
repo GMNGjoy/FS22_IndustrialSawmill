@@ -14,7 +14,9 @@
 
 
   <Materials>
-    <Material name="device92 rusted" materialId="5" customShaderId="4">
+    <Material name="default" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="device92 rusted" materialId="6" customShaderId="4">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
@@ -30,7 +32,9 @@
   </Dynamics>
 
   <Scene>
-      <Shape shapeId="1" name="industrialSawmillRusted" translation="0 0.000192599 0" rotation="-2.50448e-06 -0 0" scale="0.012 0.012 0.012" static="true" clipDistance="250" nodeId="8" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="1" name="industrialSawmillRusted" translation="0 0.000192599 0" rotation="-2.50448e-06 -0 0" clipDistance="250" nodeId="10" materialIds="6" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="col" translation="-0.00739281 1.02211 2.27899" static="true" nodeId="11" materialIds="5" distanceBlending="false" renderedInViewports="false"/>
+      </Shape>
   </Scene>
 
 </i3D>

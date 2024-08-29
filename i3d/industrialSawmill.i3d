@@ -6,14 +6,16 @@
   </Asset>
 
   <Files>
-    <File fileId="3" filename="textures/industrialSawmill_specular.png"/>
     <File fileId="1" filename="textures/industrialSawmill_diffuse.png"/>
     <File fileId="2" filename="textures/industrialSawmill_normal.png"/>
+    <File fileId="3" filename="textures/industrialSawmill_specular.png"/>
     <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
   </Files>
 
 
   <Materials>
+    <Material name="default" materialId="24" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
     <Material name="device92" materialId="5" customShaderId="4">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
@@ -30,7 +32,9 @@
   </Dynamics>
 
   <Scene>
-      <Shape shapeId="1" name="industrialSawmill" translation="0 0.000192599 0" rotation="-2.50448e-06 -0 0" scale="0.012 0.012 0.012" static="true" clipDistance="250" nodeId="8" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="1" name="industrialSawmill" translation="0 0.000192599 0" rotation="-2.50448e-06 -0 0" clipDistance="250" nodeId="8" materialIds="5" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="col" translation="-0.00739281 1.02211 2.27899" static="true" nodeId="27" materialIds="24" distanceBlending="false" renderedInViewports="false"/>
+      </Shape>
   </Scene>
 
 </i3D>
