@@ -12,15 +12,15 @@
 
 A homestead-sized sawmill for your farm with two versions to either serve as a direct-sellpoint or a sawmill production. Depending on the style of your farm the sawmill is also available in a "rusty but trusty" look.
 
-PLACEABLES:
+Placeables:
 - Industrial Sawmill (sellpoint) : Sellpoint for wood, woodchips, and wood products. Gain a slight bonus for selling direct on your farm.
 - Industrial Sawmill (production) : Producing planks and allowing direct selling or delivery of your wood. Also produce long planks and wood beams with the Platinum Edition enabled!
 
-STYLES:
+Styles:
 - Industrial Sawmill : The default look for the sawmill with an overall "used" look. Not a showroom sawmill, this is a working sawmill!
 - Rusted Industrial Sawmill : They don't make them like they used to! This sawmill has stood the test of time, but is rusted to it's core after the paint flaked away. Still works, though!
 
-PRODUCTION RECIPES:
+Production Recipes:
 - Planks (240 cycles / Month, $24 / Month) : 100 Wood = 90 Planks + 10 Wood Chips
 - Wood Delivery (240 cycles / Month, $12 / Month) : 100 Wood = 100 Wood
 
@@ -38,12 +38,20 @@ For license & feedback, please visit: https://github.com/GMNGjoy/FS22_Industrial
 Ein Sägewerk in der Größe eines Gehöfts für deine Farm mit zwei Versionen, die entweder als Direktverkaufspunkt oder als Sägewerksproduktion dienen. Je nach dem Stil deiner Farm ist das Sägewerk auch in einem „rostigen aber treuen“ Look erhältlich.
 
 Platzierbare Objekte:
-- Industrielles Sägewerk (Verkaufspunkt) : Verkaufspunkt für Holz, Holzschnitzel und Holzprodukte. Erhalte einen leichten Bonus für den Direktverkauf auf deinem Hof.
+- Industrielles Sägewerk (Verkaufspunkt) : Verkaufspunkt für Holz, Hackschnitzel und Holzprodukte. Erhalte einen leichten Bonus für den Direktverkauf auf deinem Hof.
 - Industrielles Sägewerk (Produktion) : Produziert Bretter und ermöglicht den direkten Verkauf oder die Lieferung Ihres Holzes. Produzieren Sie auch lange Bretter und Holzbalken, wenn die Platin-Edition aktiviert ist!
 
-STILE:
+Stile:
 - Industrielles Sägewerk: Der Standard-Look für das Sägewerk mit einem allgemeinen „gebrauchten“ Look. Dies ist kein Ausstellungssägewerk, sondern ein funktionierendes Sägewerk!
 - Verrostetes Industriesägewerk: Die werden nicht mehr so hergestellt wie früher! Dieses Sägewerk hat den Test der Zeit überstanden, ist aber durchgerostet, nachdem die Farbe abgeblättert ist. Funktioniert aber noch!
+
+Rezepte:
+- Bretter (240 Zyklen / Monat, 24€ / Monat) : 100 Holz = 90 Bretter + 10 Hackschnitzel
+- Holz-Verteilung (240 Zyklen / Monat, 12€ / Monat) : 100 Holz = 100 Holz
+
+(mit der Platinum Expansion)
+- Lange Bretter (240 Zyklen / Monat, 48€ / Monat) : 100 Holz = 93 Lange Bretter + 7 Hackschnitzel
+- Holzbalken (240 Zyklen / Monat, 48€ / Monat) : 100 Holz = 94 Holzbalken + 6 Hackschnitzel
 
 Hinweis zur Platzierung: Wenn du einen Schuppen über dem Sägewerk platzieren möchtest, platziere zuerst den Schuppen und dann das Sägewerk im Freiplatzierungsmodus unter dem Schuppen.
 
