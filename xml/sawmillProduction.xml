@@ -77,7 +77,7 @@
                     <input fillType="WOOD" amount="100" />
                 </inputs>
                 <outputs>
-                    <output fillType="BOARDS" amount="80" />
+                    <output fillType="BOARDS" amount="90" />
                     <output fillType="WOODCHIPS" amount="10" />
                 </outputs>
             </production>
@@ -88,7 +88,7 @@
                     <input fillType="WOOD" amount="100" />
                 </inputs>
                 <outputs>
-                    <output fillType="WOODBEAM" amount="87" />
+                    <output fillType="WOODBEAM" amount="94" />
                     <output fillType="WOODCHIPS" amount="6" />
                 </outputs>
             </production>
@@ -97,7 +97,7 @@
                     <input fillType="WOOD" amount="100" />
                 </inputs>
                 <outputs>
-                    <output fillType="PLANKS" amount="83" />
+                    <output fillType="PLANKS" amount="93" />
                     <output fillType="WOODCHIPS" amount="7" />
                 </outputs>
             </production>
