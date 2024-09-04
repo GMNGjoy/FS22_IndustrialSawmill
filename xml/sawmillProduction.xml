@@ -11,7 +11,7 @@
         <canBeSold>true</canBeSold>
         <showInStore>true</showInStore>
         <rotation>110</rotation>
-        <brand>WOODMIZER</brand>
+        <brand>NONE</brand>
         <species>placeable</species>
         <category>productionPoints</category>
         <brush>

@@ -4,11 +4,11 @@
     <version>1.0.0.0</version>
     <title>
         <en>Industrial Sawmill</en>
-        <de>Industrielle Sägemühle</de>
+        <de>Industrielles Sägewerk</de>
     </title>
     <description>
         <en>
-<![CDATA[Tired of driving across the entire map to sell your wood, or want a small and efficient sawmill directly on your farm? This mod is for you.
+        <![CDATA[Tired of driving across the entire map to sell your wood, or want a small and efficient sawmill directly on your farm? This mod is for you.
 
 A homestead-sized sawmill for your farm with two versions to either serve as a direct-sellpoint or a sawmill production. Depending on the style of your farm the sawmill is also available in a "rusty but trusty" look.
 
@@ -20,24 +20,32 @@ STYLES:
 - Industrial Sawmill : The default look for the sawmill with an overall "used" look. Not a showroom sawmill, this is a working sawmill!
 - Rusted Industrial Sawmill : They don't make them like they used to! This sawmill has stood the test of time, but is rusted to it's core after the paint flaked away. Still works, though!
 
+RECIPES:
+- Planks (240 cycles / Month, $24 / Month) : 100 Wood = 80 Planks + 10 Wood Chips
+- Wood Delivery (240 cycles / Month, $12 / Month) : 100 Wood = 100 Wood
+
+(with Platinum Expansion)
+- Long Planks (240 cycles / Month, $48 / Month) : 100 Wood = 83 Long Planks + 7 Wood Chips
+- Wood Beams (240 cycles / Month, $48 / Month) : 100 Wood = 87 Wood Beam + 6 Wood Chips
+
 Placement Note: If you wish to place a shed over the sawmill - place the shed first, then using free-placement mode, place the sawmill under the shed.
 
 For license & feedback, please visit: https://github.com/GMNGjoy/FS22_IndustrialSawmill]]>
-		</en>
+        </en>
         <de>
-<![CDATA[Bist du es müde, über die ganze Karte zu fahren, um dein Holz zu verkaufen? Oder willst du eine kleine und effiziente Sägemühle auf deinem Hof? Dann ist diese Mod für dich.
+        <![CDATA[Bist du es leid, über die gesamte Karte zu fahren, um dein Holz zu verkaufen, oder willst du ein kleines und effizientes Sägewerk direkt auf deinem Hof? Dann ist diese Mod genau das Richtige für dich.
 
-Ein Bandsägewerk für's eigene Gehöft mit zwei Versionen, um entweder direkt als Verkaufspunkt oder als Sägewerk-Produktion zu dienen. Abhängig vom Stil deines Hofs kannst du die Sägemühle auch in einem rostigen Look platzieren.
+Ein Sägewerk in der Größe eines Gehöfts für deine Farm mit zwei Versionen, die entweder als Direktverkaufspunkt oder als Sägewerksproduktion dienen. Je nach dem Stil deiner Farm ist das Sägewerk auch in einem „rostigen aber treuen“ Look erhältlich.
 
-PLATZIERBARE OBJEKTE:
-- Industrielle Sägemühle (Verkaufspunkt) : Verkaufspunkt für Holz, Hackschnitzel und Holzprodukte. Du bekommst einen kleinen Bonus für den Direktverkauf auf deinem Hof.
-- Industrielle Sägemühle (Produktion) : Produziert Bretter und erlaubt den Direktverkauf oder die Weiterverteilung deines Holzes. Produziert auch lange Bretter und Holzbalken, wenn der Platinum DLC aktiviert ist!
+Platzierbare Objekte:
+- Industrielles Sägewerk (Verkaufspunkt) : Verkaufspunkt für Holz, Holzschnitzel und Holzprodukte. Erhalte einen leichten Bonus für den Direktverkauf auf deinem Hof.
+- Industrielles Sägewerk (Produktion) : Produziert Bretter und ermöglicht den direkten Verkauf oder die Lieferung Ihres Holzes. Produzieren Sie auch lange Bretter und Holzbalken, wenn die Platin-Edition aktiviert ist!
 
 STILE:
-- Industrielle Sägemühle : Der normale Look für deine Sägemühle mit üblichen Gebrauchsspuren. Kein Ausstellungsstück, aber ein Arbeitstier!
-- Rostige Industrielle Sägemühle : Von dieser Qualität kann man heute nur noch träumen! Die Sägemühle hat sich bewährt, ist aber vom Rost befallen, nachdem die Farbe abgeblättert ist. Funktioniert aber immer noch!
+- Industrielles Sägewerk: Der Standard-Look für das Sägewerk mit einem allgemeinen „gebrauchten“ Look. Dies ist kein Ausstellungssägewerk, sondern ein funktionierendes Sägewerk!
+- Verrostetes Industriesägewerk: Die werden nicht mehr so hergestellt wie früher! Dieses Sägewerk hat den Test der Zeit überstanden, ist aber durchgerostet, nachdem die Farbe abgeblättert ist. Funktioniert aber noch!
 
-Hinweis zum Platzieren: Wenn du einen Schuppen über das Bandsägewerk stellen möchtest, dann platziere erst den Schuppen und nutze dann den freien Modus, um das Sägewerk in dem Schuppen zu platzieren.
+Hinweis zur Platzierung: Wenn du einen Schuppen über dem Sägewerk platzieren möchtest, platziere zuerst den Schuppen und dann das Sägewerk im Freiplatzierungsmodus unter dem Schuppen.
 
 Besucht für Lizenz & Feedback bitte https://github.com/GMNGjoy/FS22_IndustrialSawmill]]>
         </de>
@@ -52,7 +60,7 @@ Besucht für Lizenz & Feedback bitte https://github.com/GMNGjoy/FS22_IndustrialS
         <storeItem xmlFilename="xml/oldSawmillProduction.xml" />
     </storeItems>
 
-    <l10n>s
+    <l10n>
         <text name="fillType_woodBeam">
             <en>Wood Beam</en>
             <de>Holzbalken</de>
@@ -63,11 +71,11 @@ Besucht für Lizenz & Feedback bitte https://github.com/GMNGjoy/FS22_IndustrialS
         </text>
         <text name="shopItem_industrialSawmill">
             <en>Industrial Sawmill</en>
-            <de>Industrielle Sägemühle</de>
+            <de>Industrielles Sägewerk</de>
         </text>
         <text name="shopItem_oldIndustrialSawmill">
             <en>Rusted Industrial Sawmill</en>
-            <de>Rostige Industrielle Sägemühle</de>
+            <de>Rostiges Industrielles Sägewerk</de>
         </text>
     </l10n>
 </modDesc>
