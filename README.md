@@ -7,17 +7,23 @@ This is an all-platforms version of the [BandsawMill](https://github.com/GMNGjoy
 >
 > A homestead-sized sawmill for your farm with two versions to either serve as a direct-sellpoint or a sawmill production. Depending on the style of your farm the sawmill is also available in a "rusty but trusty" look.
 >
-> PLACEABLES:
+> Placeables:
 > - Industrial Sawmill (sellpoint) : Sellpoint for wood, woodchips, and wood products. Gain a slight bonus for selling direct on your farm.
 > - Industrial Sawmill (production) : Producing planks and allowing direct selling or delivery of your wood. Also produce long planks and wood beams with the Platinum Edition enabled!
 >
-> STYLES:
+> Styles:
 > - Industrial Sawmill : The default look for the sawmill with an overall "used" look. Not a showroom sawmill, this is a working sawmill!
 > - Rusted Industrial Sawmill : They don't make them like they used to! This sawmill has stood the test of time, but is rusted to it's core after the paint flaked away. Still works, though!
 >
-> Placement Note: If you wish to place a shed over the sawmill - place the shed first, then using free-placement mode, place the sawmill under the shed.
+> Production Recipes:
+> - Planks (240 cycles / Month, $24 / Month) : 100 Wood = 90 Planks + 10 Wood Chips
+> - Wood Delivery (240 cycles / Month, $12 / Month) : 100 Wood = 100 Wood
 >
-> For license & feedback, please visit: https://github.com/GMNGjoy/FS22_IndustrialSawmill
+> (with Platinum Expansion)
+> - Long Planks (240 cycles / Month, $48 / Month) : 100 Wood = 93 Long Planks + 7 Wood Chips
+> - Wood Beams (240 cycles / Month, $48 / Month) : 100 Wood = 94 Wood Beam + 6 Wood Chips
+>
+> Placement Note: If you wish to place a shed over the sawmill - place the shed first, then using free-placement mode, place the sawmill under the shed.
 
 
 ## Installation Instructions
@@ -40,3 +46,6 @@ _Industrial Sawmill Production in the open - making Planks, Long Planks and Wood
 
 ![Old Industrial Sawmill Production](/_screenshots/industrialSawmill_4_old_production.png)
 _Old & Rusty Industrial Sawmill Production in the open - making Planks, Long Planks and Wood Beams, with a byproduct of Wood Chips_
+
+![Industrial Sawmill Production Details](/_screenshots/industrialSawmill_5_production_detail.png)
+_A detail shot of the Industrial Sawmill Production in gameplay - showing stacks of  Planks, Long Planks and Wood Beams, with Wood Chips filling up the two bins_
